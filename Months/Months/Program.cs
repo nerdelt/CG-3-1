@@ -43,7 +43,7 @@ namespace Months
 
             }
 
-            Console.WriteLine($"The Italian name for your birth month is : {monthName}.");
+            Console.WriteLine($"The Italian name for your birth month is : {monthName}");
             Console.ReadLine();
 
 
