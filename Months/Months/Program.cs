@@ -7,10 +7,11 @@ namespace Months
         static void Main(string[] args)
         {
 
-            // ask user for the number of month they were born
+            // Asks user for the number of month they were born
             Console.Write("Please enter the number of the month in which you were born: ");
             string monthNumber = Console.ReadLine();
 
+            // Placeholder for the following month name options
             string monthName = "";
 
             // possibilities of different months
@@ -45,7 +46,7 @@ namespace Months
 
             }
 
-            // user gets to learn the Italian name for their birth month. Months aren't capitalized in Italian. 
+            // User gets to learn the Italian name for their birth month. Months aren't capitalized in Italian. 
             Console.WriteLine($"The Italian name for your birth month is : {monthName}");
             Console.ReadLine();
 
